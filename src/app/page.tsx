@@ -27,7 +27,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Alla scoperta del cuore storico",
       descrizione: "Immergiti nella magia millenaria di Siracusa, esplorando l'isola di Ortigia e i suoi tesori archeologici. Un viaggio attraverso 2700 anni di storia tra arte, cultura e tradizioni.",
       colore: "from-amber-500 to-orange-600",
-      immagini: ["/ortigia.jpg", "/siracusa-duomo.jpg", "/teatro-greco.jpg"],
+      immagini: ["ortigia.jpg", "siracusa-duomo.jpg", "/teatro-greco.jpg"],
       mattina: {
         titolo: "Mattina: Ortigia",
         attivita: [

@@ -21,13 +21,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Use Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
+      # 👇 forza il registry pubblico npm
+      - name: Set npm registry
+        run: npm config set registry https://registry.npmjs.org/
+
+      # 👇 install più tollerante di "ci"
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build (Next.js static export -> out/)
         run: npm run build

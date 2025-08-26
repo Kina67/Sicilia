@@ -297,7 +297,7 @@ export default function SiciliaViaggio() {
         {/* Hero Section */}
         <div className="relative bg-gradient-to-r from-blue-600 via-purple-600 to-emerald-600 text-white overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-30"></div>
-          <div className="absolute inset-0 bg-[url('/sicilia-sfondo.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
+          <div className="absolute inset-0 bg-[url('sicilia-sfondo.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"></div>
           <div className="relative container mx-auto px-4 py-20 text-center">
             <div className="mb-6">
               <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-white">

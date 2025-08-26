@@ -130,7 +130,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Perla ionica e panorami mozzafiato",
       descrizione: "Esplora Taormina, la perla dello Ionio, con il suo celebre teatro greco e la splendida Isola Bella. Una giornata tra eleganza, bellezza naturale e viste spettacolari sull'Etna.",
       colore: "from-blue-500 to-indigo-600",
-      immagini: ["isola-bella.jpg", "taormina.jpg", "taormina.jpg"],
+      immagini: ["taormina.jpg", "isola-bella.jpg", "taormina.jpg"],
       mattina: {
         titolo: "Mattina: Taormina",
         attivita: [

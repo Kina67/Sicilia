@@ -27,7 +27,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Alla scoperta del cuore storico",
       descrizione: "Immergiti nella magia millenaria di Siracusa, esplorando l'isola di Ortigia e i suoi tesori archeologici. Un viaggio attraverso 2700 anni di storia tra arte, cultura e tradizioni.",
       colore: "from-amber-500 to-orange-600",
-      immagini: ["ortigia.jpg", "siracusa-duomo.jpg", "/teatro-greco.jpg"],
+      immagini: ["ortigia.jpg", "siracusa-duomo.jpg", "teatro-greco.jpg"],
       mattina: {
         titolo: "Mattina: Ortigia",
         attivita: [
@@ -79,7 +79,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Barocco e relax mediterraneo",
       descrizione: "Scopri Noto, la capitale del barocco siciliano, e rilassati sulle acque cristalline di Fontane Bianche. Una giornata tra arte, storia e mare incontaminato.",
       colore: "from-emerald-500 to-teal-600",
-      immagini: ["/noto.jpg", "/noto-cattedrale.jpg", "/fontane-bianche.jpg"],
+      immagini: ["noto.jpg", "noto-cattedrale.jpg", "fontane-bianche.jpg"],
       mattina: {
         titolo: "Mattina: Noto",
         attivita: [
@@ -130,7 +130,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Perla ionica e panorami mozzafiato",
       descrizione: "Esplora Taormina, la perla dello Ionio, con il suo celebre teatro greco e la splendida Isola Bella. Una giornata tra eleganza, bellezza naturale e viste spettacolari sull'Etna.",
       colore: "from-blue-500 to-indigo-600",
-      immagini: ["/isola-bella.jpg", "/taormina.jpg", "/taormina.jpg"],
+      immagini: ["isola-bella.jpg", "taormina.jpg", "taormina.jpg"],
       mattina: {
         titolo: "Mattina: Taormina",
         attivita: [
@@ -182,7 +182,7 @@ export default function SiciliaViaggio() {
       sottotitolo: "Borghi marinari e tradizioni",
       descrizione: "Scopri l'autentica Sicilia nei borghi di pescatori di Marzamemi e Portopalo. Una giornata tra tradizioni marinare, spiagge incontaminate e sapori genuini del sud.",
       colore: "from-purple-500 to-pink-600",
-      immagini: ["/marzamemi.jpg", "/marzamemi-borgo.jpg", "/fontane-bianche.jpg"],
+      immagini: ["marzamemi.jpg", "marzamemi-borgo.jpg", "fontane-bianche.jpg"],
       mattina: {
         titolo: "Mattina: Marzamemi",
         attivita: [
@@ -286,7 +286,7 @@ export default function SiciliaViaggio() {
       {/* Sfondo Sicilia */}
       <div 
         className="fixed inset-0 bg-cover bg-center bg-no-repeat opacity-10 z-0"
-        style={{ backgroundImage: "url('/sicilia-sfondo.jpg')" }}
+        style={{ backgroundImage: "url('sicilia-sfondo.jpg')" }}
       />
       
       {/* Overlay gradiente */}
